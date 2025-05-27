@@ -1,13 +1,20 @@
 return {
+  -- {
+  --   "MarcoKorinth/onehalf.nvim",
+  --   lazy = false,
+  -- },
+  -- {
+  --   "navarasu/onedark.nvim",
+  --   lazy = false,
+  -- },
   {
-    "MarcoKorinth/onehalf.nvim",
+    "EdenEast/nightfox.nvim",
     lazy = false,
   },
-
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "onehalfdark",
+      colorscheme = "nightfox",
     },
   },
 }
